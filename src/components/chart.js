@@ -54,7 +54,7 @@ export default function Chart(props) {
     ],
   };
   return (
-      <div className="mr4" style={{resize:"both",overflow:"auto"}}>
+      <div className="mr4" style={{resize:"horizontal",overflow:"auto"}}>
           <Line options={options} data={data} />
       </div>
   )
